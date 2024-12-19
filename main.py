@@ -1,10 +1,3 @@
-startingCash = 100
+from ufc import get_event
 
-def testFunc():
-  print("testFunc")
-
-def main():
-  print("main")
-
-main()
-testFunc()
+event_data =get_event('UFC 305')
